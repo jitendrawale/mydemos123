@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans >
+xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+<bean id="manager" class="com.org.tcs1.bean.Manager"> 
+ 
+
+<constructor-arg name="dev" ref="devclass"> </constructor-arg>
+<constructor-arg name="prod" ref="prodclass"> </constructor-arg>
+<constructor-arg name="op" ref="opclass"> </constructor-arg>
+
+
+</bean>
+<bean id="prodclass" class="com.org.tcs1.bean.ProdClass"> </bean>
+<bean id="opclass" class="com.org.tcs1.bean.OpClass"> </bean>
+<bean id="devclass" class="com.org.tcs1.bean.DevClass">  </bean>
+
+</beans>
+
+  
+
+  
+
+
+
+

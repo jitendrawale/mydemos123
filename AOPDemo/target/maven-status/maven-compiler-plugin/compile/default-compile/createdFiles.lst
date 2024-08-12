@@ -1,0 +1,5 @@
+com/org/demo/ActorRepository.class
+com/org/demo/MovieRepository.class
+com/org/advice/BeforeAdvice.class
+demo/AOPDemo/App.class
+com/org/demo/ConfigurationClass.class

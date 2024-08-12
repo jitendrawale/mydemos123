@@ -1,0 +1,2 @@
+spring.application.name=SpringCloudConfigDemo
+server.port=9191

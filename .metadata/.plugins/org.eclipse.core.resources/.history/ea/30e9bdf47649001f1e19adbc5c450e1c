@@ -1,0 +1,24 @@
+package com.demo;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+public class StreamApiDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<String> al=new ArrayList();
+al.add("pune");
+al.add("mumbai");
+al.add("nagpur");
+
+//creating Stream
+Stream<String> stream=al.stream();
+Stream<String> stream1=al.parallelStream();
+int x[]= {1,2,3,4,5};
+IntStream s=Arrays.stream(x);
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.demo;
+
+import java.util.ArrayList;
+
+public class StreamApiDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<String> al=new ArrayList();
+al.add("pune");
+al.add("mumbai");
+al.add("nagpur");
+
+//creating Stream
+
+	}
+
+}

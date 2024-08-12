@@ -1,0 +1,23 @@
+package com.demo;
+
+import java.util.ArrayList;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		ArrayList<Employee> al=new ArrayList<>();
+		al.add(new Employee(1, "akshay", 1, "male", "java", 1/1/2024, 51));
+		al.add(new Employee(1, "ritesh", 2, "male", "python", 1/2/2024, 111));
+		al.add(new Employee(1, "govinda", 3, "male", "react", 1/3/2024, 151));
+		al.add(new Employee(1, "amitabh", 4, "male", "mern", 1/4/2024, 201));
+		al.add(new Employee(1, "devendra", 5, "male", "java", 1/5/2024, 251));
+		al.add(new Employee(1, "narendra", 6, "male", "angular", 1/6/2024, 300));
+		al.add(new Employee(1, "ramdas", 7, "male", "matlab", 1/7/2024, 351));
+		al.add(new Employee(1, "salman", 8, "female", "ruby", 1/8/2024, 400));
+		al.add(new Employee(1, "shahrukh", 9, "female", "powerbi", 1/9/2024, 451));
+		al.add(new Employee(1, "amir", 10, "male", "testing", 1/10/2024, 500));
+		
+
+	}
+
+}

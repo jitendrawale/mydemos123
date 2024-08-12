@@ -1,0 +1,4 @@
+spring.application.name=MicroDemo1
+server.port=8761
+eureka.client.register-witheureka=false
+eureka.client.fetch-registry=false

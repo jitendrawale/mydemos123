@@ -1,0 +1,14 @@
+package com.example.demo.controller;
+
+import java.util.ArrayList;
+
+public class Response {
+Integer code;
+String message;
+ArrayList<Product> products;
+public Response() {
+	
+}
+
+
+}

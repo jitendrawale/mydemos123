@@ -1,0 +1,28 @@
+package com.demo;
+
+public class Employee {
+	int id;
+	String name;
+	int age;
+	String gender;
+	String department;
+	int doj;
+	int salary;
+	public Employee(int id, String name, int age, String gender, String department, int doj, int salary) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+		this.department = department;
+		this.doj = doj;
+		this.salary = salary;
+	}
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", age=" + age + ", gender=" + gender + ", department="
+				+ department + ", doj=" + doj + ", salary=" + salary + "]";
+	}
+	
+
+}
