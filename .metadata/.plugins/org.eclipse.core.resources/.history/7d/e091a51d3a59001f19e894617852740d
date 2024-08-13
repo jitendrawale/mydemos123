@@ -1,0 +1,5 @@
+package com.org.gitpractice.service;
+
+public interface GitService {
+
+}

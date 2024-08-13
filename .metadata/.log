@@ -5970,3 +5970,206 @@ java.lang.NegativeArraySizeException: -3097
 	at org.eclipse.php.internal.debug.core.xdebug.communication.XDebugCommunicationDaemon$CommunicationDaemon.startConnection(XDebugCommunicationDaemon.java:221)
 	at org.eclipse.php.internal.debug.core.daemon.AbstractDebuggerCommunicationDaemon$ReceiverThread.run(AbstractDebuggerCommunicationDaemon.java:215)
 	at java.base/java.lang.Thread.run(Thread.java:1570)
+!SESSION 2024-08-13 06:01:53.667 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-13 06:02:53.832
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-13 06:03:04.810
+!MESSAGE Logback config file: /home/labuser/eclipse-workspace/Maven/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-08-13 06:03:07.690
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-08-13 06:03:07.690
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-08-13 06:03:09.943
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-08-13 06:03:09.943
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:03:39.425
+!MESSAGE Boot project ADDED: AOPDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:03:39.426
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:03:39.831
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:03:39.832
+!MESSAGE Boot project ADDED: MavenDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:03:39.832
+!MESSAGE Boot project ADDED: MavenDemoProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:03:39.832
+!MESSAGE Boot project ADDED: MongoDBDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:03:39.833
+!MESSAGE Boot project ADDED: MongoDemo2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:03:39.836
+!MESSAGE Boot project ADDED: SpringBootDemo1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:03:39.837
+!MESSAGE Boot project ADDED: SpringBootDemo2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:03:39.837
+!MESSAGE Boot project ADDED: SpringMVCDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:03:39.838
+!MESSAGE Boot project ADDED: SpringMVCDemo1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-08-13 06:03:39.928
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/home/labuser/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_22.0.1.v20240426-1149/jre/bin/java
+-cp
+/home/labuser/eclipse/jee-2024-06/eclipse/../../../.p2/pool/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes:/home/labuser/eclipse/jee-2024-06/eclipse/../../../.p2/pool/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/home/labuser/eclipse/jee-2024-06/eclipse/../../../.p2/pool/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/labuser/eclipse-workspace/Maven/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1723529019927
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:03:39.929
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-08-13 06:03:40.021
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 16880
+
+!ENTRY org.eclipse.jface 2 0 2024-08-13 06:03:52.963
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-08-13 06:03:52.965
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-08-13 06:03:52.966
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:04:43.480
+!MESSAGE Classpath changed for project: gitpractice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:04:47.482
+!MESSAGE Classpath changed for project: gitpractice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:04:47.482
+!MESSAGE Boot project ADDED: gitpractice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:04:51.572
+!MESSAGE Classpath changed for project: gitpractice
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2024-08-13 06:05:15.348
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-13 06:05:16.048
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-13 06:05:16.060
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-13 06:05:23.961
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-08-13 06:05:23.966
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-08-13 06:05:24.061
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-08-13 06:05:24.061
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-08-13 06:05:24.062
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-08-13 06:05:24.063
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-08-13 06:05:24.080
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-08-13 06:05:24.095
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:13:08.131
+!MESSAGE Classpath changed for project: gitpractice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-08-13 06:13:08.132
+!MESSAGE Boot project REMOVED: gitpractice
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-08-13 06:13:08.141
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): gitpractice does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2603)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2353)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2396)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-08-13 06:13:08.142
+!MESSAGE gitpractice does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-08-13 06:13:08.144
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): gitpractice does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2603)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2353)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2396)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-08-13 06:13:08.144
+!MESSAGE gitpractice does not exist
+
+!ENTRY org.eclipse.php.debug.core 4 4 2024-08-13 07:05:25.790
+!MESSAGE class org.eclipse.php.internal.debug.core.xdebug.dbgp.session.DBGpSession : Unexpected null from readResponse waiting for Init
