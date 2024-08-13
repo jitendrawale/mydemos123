@@ -11,6 +11,7 @@ public class Manager implements Employee {
 	public void doWork() {
 		// TODO Auto-generated method stub
 		System.out.println("All team is doing work");
+		System.out.println("editing manager class");
 	}
 	public Manager(DevClass dev, ProdClass prod) {
 		super();
